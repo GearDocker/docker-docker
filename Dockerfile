@@ -25,8 +25,8 @@ ADD run.sh /run.sh
 RUN /install.sh 20.Base.v2.tar.gz
 RUN /install.sh 30.Ubuntu_Base.v2.tar.gz
 RUN /install.sh 40.Ubuntu_Base.v2.tar.gz
-RUN /install.sh 50.Ubuntu_14.04_Docker_Install.v2.tar.gz
-RUN /install.sh 60.Ubuntu_14.04_Docker_Install.v2.tar.gz
+RUN /install.sh 50.Ubuntu_14.04_DockerInDocker_Install.v2.tar.gz
+RUN /install.sh 60.Ubuntu_14.04_DockerInDocker_Install.v2.tar.gz
 CMD ["/run.sh"]
 
 #-----------
